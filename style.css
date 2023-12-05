@@ -21,9 +21,9 @@ header{
     color: #FFF;
 }
 h1{
-    font-size: 30px;
+    font-size: 1.563vw;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 2.5vw;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -36,17 +36,20 @@ h1{
     padding: 2.083vw;
 }
 .links-header>li>a{
-    font-size: 20px;
+    font-size: 1.042vw;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.667vw;
     letter-spacing: 0em;
     text-align: center;
     color: white;
 }
+.links-header>li>a:hover{
+    color: #8b6523;
+}
 .wrapper-header>p{
-    font-size: 30px;
+    font-size: 1.563vw;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 2.5vw;
     letter-spacing: 0em;
     text-align: right;
     color: white;
@@ -56,17 +59,18 @@ h1{
     background: #E2A63D;
     display: flex;
     justify-content: center;
-    height: 60.2vw;
+    height: 47.7vw;
 }
 h2{
     color: #403B47;
-    font-size: 70px;
+    font-size: 3.646vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 112px */
+    line-height: 5vw;
 }
 .list1-wrapper{
-    width: 80.833vw;
+    display: flex;
+    flex-direction: row;
 }
 .list1-wrapper>p{
     color: #FFF;
@@ -75,16 +79,28 @@ h2{
     font-weight: 400;
     line-height: 160%; /* 32px */
 }
-.content1>button{
+.content1{
+    width: 31vw;
+    margin-top: 10vw;
+}
+.content1>p{
+    margin-bottom: 2.083vw;
+    color: #FFF;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.667vw;
+}
+.content1>a>button{
     display: inline-flex;
-    padding: 25px 54px;
+    padding: 1.302vw 2.813vw;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 5px;
+    gap: 0.521vw;
+    border-radius: 0.26vw;
     background: #403B47; 
 }
-.content1>button>p{
+.content1>a>button>p{
     color: white;
     text-align: center;
     font-size: 0.938vw;
@@ -93,15 +109,14 @@ h2{
     line-height: 160%; /* 28.8px */
 }
 .content2{
-    position: relative;
+    padding-left: 7vw;
 }
 .circle{
-    border-radius: 783px;
-    border: 4.167vw solid #403B47; 
+    border-radius: 40.781vw;
+    border: 4.167vw solid #403B47;
     width: 34.781vw;
     height: 34.781vw;
-    flex-shrink: 0; 
-    position: absolute;
+    flex-shrink: 0;
     left: 40vw;
     top: 4vw;
 }
@@ -110,7 +125,7 @@ h2{
     height: 47.786vw;
     flex-shrink: 0;
     position: absolute;
-    left: 48vw;
+    left: 55vw;
 }
 /*list2*/
 .list2-wrapper{
@@ -120,7 +135,7 @@ h2{
 }
 .list2-wrapper>p{
     color: #141024;
-    font-size: 30px;
+    font-size: 1.563vw;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
@@ -132,17 +147,17 @@ h2{
 }
 .time{
     color: #403B47;
-    font-size: 70px;
+    font-size: 3.646vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 112px */
+    line-height: 160%; /* 5.833vw */
 }
 .card_text{
     color: rgba(20, 16, 36, 0.70);
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%; /* 1.5vw */
     margin-bottom: 2.292vw;
 }
 /*list3*/
@@ -158,10 +173,10 @@ h2{
 }
 .list3-wrapper>h3{
     color: #141024;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 80px */
+    line-height: 160%; /* 4.167vw */
     padding-left:2.083vw; ;
 }
 .card{
@@ -170,17 +185,17 @@ h2{
 }
 .card>h4{
     color: #141024;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 38.4px */
+    line-height: 160%; /* 2vw */
 }
 .card>p{
     color: rgba(20, 16, 36, 0.70);
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%; /* 1.5vw */
 }
 /*footer*/
 footer{
@@ -196,9 +211,9 @@ footer{
     align-items: center;
 }
 h5{
-    font-size: 30px;
+    font-size: 1.563vw;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 2.5vw;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -206,10 +221,10 @@ h5{
 .text-footer1{
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-size: 16px;
+    font-size: 0.833vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
+    line-height: 1.333vw; /*160%*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -220,10 +235,10 @@ h5{
 .text-footer2{
     color: #FFF;
     text-align: right;
-    font-size: 30px;
+    font-size: 1.563vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 48px */
+    line-height: 2.5vw; /*160%*/
 }
 
 
@@ -240,10 +255,10 @@ h5{
 }
 .page1-wrapper>h2{
     color: #141024;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 80px */
+    line-height:  4.167vw ;
     margin-bottom: 3.125vw;
     margin-top: 5.573vw;
 }
@@ -253,31 +268,35 @@ h5{
 }
 .card-coach{
     background-color: gainsboro;
-    border-radius: 20px;
+    border-radius: 1.042vw;
     padding-bottom: 0.5vw;
+}
+.card-coach>img{
+    width: 18.75vw;
+    height: 26.094vw; 
 }
 .card-coach>a{
     color: #403B47;
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height:  1.5vw ; /* 1.5vw */
     padding-left: 0.5vw;
 }
 .name{
     color: #141024;
-    font-size: 24px;
+    font-size: 1.25vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 38.4px */
+    line-height: 2vw; /* 2vw */
     padding-left: 0.5vw;
 }
 .text-people{
     color: rgba(20, 16, 36, 0.70);
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height: 1.5vw; /* 1.5vw */
     margin-bottom: 1vw;
     padding-left: 0.5vw;
 }
@@ -300,10 +319,10 @@ h5{
 }
 .page2-wrapper>h2{
     color: #141024;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 80px */
+    line-height: 4.167vw ; /* 4.167vw */
     padding-top: 8.021vw;
     padding-bottom: 3.125vw;
 }
@@ -315,7 +334,7 @@ h5{
 .rate-main{
     height: 26.042vw;
     width: 18.75vw;
-    border-radius: 20px;
+    border-radius: 1.042vw;
     background: #141024;
     display: flex;
     flex-direction: column;
@@ -325,39 +344,39 @@ h5{
 .price-main{
     color: #FFF;
     text-align: center;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 80px */
+    line-height:  4.167vw ; /* 4.167vw */
     padding-top: 4.323vw;
     padding-bottom: 1.042vw;
 }
 .rate-main>h3{
     color: #FFF;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.563vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 48px */
+    line-height:  2.5vw ; /* 2.5vw */
     padding-top: 2.083vw;
 }
 .text-rate-main{
     color: #FFF;
     text-align: center;
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height:  1.5vw ; /* 1.5vw */
     padding-bottom: 2.708vw;
 }
 .rate-main>button{
     display: flex;
-    width: 280px;
-    padding: 25px 54px;
+    width: 14.583vw;
+    padding: 1.302vw 2.813vw;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 5px;
+    gap: 0.521vw;
+    border-radius: 0.26vw;
     background: #80A453;
     border: 0;
 }
@@ -381,39 +400,39 @@ h5{
 .rate>h3{
     color: #141024;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.563vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 48px */
+    line-height:  2.5vw ; /* 2.5vw */
     padding-top: 2.083vw;
 }
 .price{
     color: #141024;
     text-align: center;
-    font-size: 50px;
+    font-size: 2.604vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 80px */
+    line-height:  4.167vw ; /* 4.167vw */
     padding-top: 3.281vw;
     padding-bottom: 1.042vw;
 }
 .text-rate{
     color: #141024;
     text-align: center;
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height:  1.5vw ; /* 1.5vw */
     padding-bottom: 3.177vw;
 }
 .rate>button{
     display: flex;
-    width: 280px;
-    padding: 25px 54px;
+    width: 14.583vw;
+    padding: 1.302vw 2.813vw;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 5px;
+    gap: 0.521vw;
+    border-radius: 0.26vw;
     background: #80A453;
     border: 0;
 }
@@ -443,18 +462,18 @@ h5{
 }
 .content1-page3>h2{
     color: #FFF;
-    font-size: 36px;
+    font-size: 1.875vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 130%; /* 46.8px */
+    line-height:  2.438vw ; /* 2.438vw */
 }
 .content1-page3>p{
     color: #FFF;
     font-family: Jost;
-    font-size: 20px;
+    font-size: 1.042vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 130%; /* 26px */
+    line-height:  1.354vw ; /* 1.354vw */
 }
 .content2-page3{
     padding-left: 3.333vw;
